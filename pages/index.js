@@ -1,8 +1,11 @@
-import styles from '../styles/Home.module.css';
+import Image from 'next/image'
+import styles from '@/styles/Home.module.css'
 
-const Home = () => 
-  <>
-    <h1 className={styles.chirag}>Hello Chirag Bhao</h1>
-    <p>Specs khatam krk jaldi aao .😢😢</p>
-  </>
-export default Home;
+export default function Home() {
+  console.log('home');
+  return (
+    <>
+      <h1>Hello World</h1>
+    </>
+  )
+}
