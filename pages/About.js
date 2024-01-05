@@ -6,7 +6,7 @@ export const getStaticProps = async () => {
         return {props:{data: data}}
 }
 const About = ({data: {photo}}) => {
-    return (<>
+    return (data && <>
     <h2>{photo.title}</h2>
     <p>{photo.description}</p>
     <Image 
